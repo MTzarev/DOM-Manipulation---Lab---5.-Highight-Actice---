@@ -3,10 +3,8 @@ function focused() {
         element.addEventListener(`focus`, onFocus)
         element.addEventListener(`blur`, onBlur);
     });
-
 function onFocus(ev){
-    ev.target.parentNode.className = `focus`;
-
+ev.target.parentNode.className = `focus`;
 }
 function onBlur(ev){
 ev.target.parentNode.className = ``;
